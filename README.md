@@ -34,7 +34,10 @@ git clone git@github.com:yuwang17/WYExtensionUtil.git
 * Swift 2.*
 
 ## Credits
-* Internet
+* Stack Overflow
+* MCUtil
+* Spirig
+* Yu Wang
 
 ## License
 WYExtensionUtil is available under [MIT License](LICENSE), see LICENSE for more information.
