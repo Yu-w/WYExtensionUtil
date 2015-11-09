@@ -9,6 +9,7 @@
 import UIKit
 
 extension UITextField {
+    
     func addLeftIcon(img: UIImage?, frame: CGRect, imgSize: CGSize) {
         let leftView = UIView()
         leftView.frame = frame

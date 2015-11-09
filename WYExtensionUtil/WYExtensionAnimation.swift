@@ -9,6 +9,7 @@
 import UIKit
 
 extension UIView {
+    
     func scaleMyView() {
         let newTransform: CGAffineTransform = CGAffineTransformScale(self.transform, 0.1, 0.1)
         self.transform = newTransform
@@ -41,7 +42,7 @@ extension UIView {
         }
     }
     
-    func scaleSmallAnimation(){
+    func scaleSmallAnimation() {
         self.scaleSmallWithTime(0.35) { () -> Void in
             self.removeFromSuperview()
         }

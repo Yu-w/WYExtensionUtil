@@ -25,8 +25,7 @@ extension String {
         return self.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
     }
     
-    //验证正则表达式
-    func testRegularExpress(pattern:String) ->Bool {
+    func testRegularExpression(pattern:String) ->Bool {
         let expression: NSRegularExpression?
         do {
             expression = try NSRegularExpression(pattern: pattern, options: .CaseInsensitive)

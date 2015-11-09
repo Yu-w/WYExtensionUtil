@@ -12,7 +12,7 @@ class WYArchiving: NSObject {
     
     class func saveByKey(key: String, object: AnyObject!) {
         let homePath = WYArchiving.getPath()
-        dispatch_async(GlobalMainQueue) {
+        dispatch_async(globalMainQueue) {
             let data = NSMutableData()
             let archiver = NSKeyedArchiver(forWritingWithMutableData: data)
             archiver.encodeObject(object, forKey: key)
@@ -35,7 +35,7 @@ class WYArchiving: NSObject {
         return nil
     }
     
-    class func getPath()->String{
+    class func getPath() -> String {
         var dirPaths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
         var docsDir: AnyObject?
         docsDir = dirPaths[0]
