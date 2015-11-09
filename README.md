@@ -36,7 +36,7 @@ git clone git@github.com:yuwang17/WYExtensionUtil.git
 ## Credits
 * Stack Overflow
 * MCUtil
-* Spirig
+* Spring
 * Yu Wang
 
 ## License
