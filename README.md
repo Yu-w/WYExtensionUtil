@@ -1,6 +1,6 @@
 # WYExtensionUtil
 
-UIKit extensions and helpers that make iOS developer lives easier.
+#### UIKit extensions and helpers that make iOS developer lives easier.
 -----------
 The WYExtensionUtil have many UIKit extensions and also some helper classes like ImageLoader, SoundPlayer. Everything is written in Swift 2.1.
 ```
