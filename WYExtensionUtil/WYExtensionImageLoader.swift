@@ -5,6 +5,7 @@
 //  Created by Wang Yu on 11/9/15.
 //  Copyright © 2015 Wang Yu. All rights reserved.
 //
+//  Credit to Spring, MengTo
 
 import UIKit
 
