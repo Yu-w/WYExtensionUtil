@@ -4,6 +4,7 @@
 -----------
 The WYExtensionUtil have many UIKit extensions and also some helper classes like ImageLoader, SoundPlayer. Everything is written in Swift 2.1.
 ```
+WYExtensionUtil/Async.swift
 WYExtensionUtil/WYExtensionUIView.swift
 WYExtensionUtil/WYExtensionAnimation.swift
 WYExtensionUtil/WYExtensionArchiving.swift
@@ -34,10 +35,11 @@ git clone git@github.com:yuwang17/WYExtensionUtil.git
 * Swift 2.*
 
 ## Credits
-* Stack Overflow
+* [Stack Overflow](http://stackoverflow.com)
 * MCUtil
-* Spring
-* Yu Wang
+* [Spring](https://github.com/MengTo/Spring)
+* [Async](https://github.com/duemunk/Async)
+* [Yu Wang](https://github.com/yuwang17)
 
 ## License
 WYExtensionUtil is available under [MIT License](LICENSE), see LICENSE for more information.
