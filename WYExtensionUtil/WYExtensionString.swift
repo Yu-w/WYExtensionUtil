@@ -12,6 +12,14 @@ extension String {
     
     var count: Int { return self.characters.count }
     
+    func length() -> Int {
+        return self.characters.count
+    }
+    
+    subscript(idx: Int) -> Character {
+        return self[self.startIndex.advancedBy(idx)]
+    }
+    
     func toURL() -> NSURL? {
         return NSURL(string: self)
     }
