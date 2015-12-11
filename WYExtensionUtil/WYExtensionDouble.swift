@@ -9,6 +9,9 @@
 import UIKit
 
 extension Double {
+    
+    // let f = ".2"
+    // print("double:\(b.format(f))")
     func format(f: String) -> String {
         return String(format: "%\(f)f", self)
     }
