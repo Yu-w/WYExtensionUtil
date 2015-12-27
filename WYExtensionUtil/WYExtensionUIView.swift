@@ -53,7 +53,7 @@ extension UIView {
     
     func addBottomLine(color: UIColor, lineWidth: CGFloat) {
         let lineView = UIView()
-        lineView.frame = CGRectMake(0, self.frame.size.height-lineWidth, UIScreen.screenWidth, lineWidth)
+        lineView.frame = CGRectMake(0, self.frame.size.height-lineWidth, UIScreen.mainScreenWidth, lineWidth)
         lineView.backgroundColor = color
         self.addSubview(lineView)
     }

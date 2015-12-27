@@ -10,19 +10,19 @@ import UIKit
 
 extension UIScreen {
     
-    class var screenWidth: CGFloat {
+    class var mainScreenWidth: CGFloat {
         return UIScreen.mainScreen().bounds.size.width
     }
     
-    class var screenHeight: CGFloat {
+    class var mainScreenHeight: CGFloat {
         return UIScreen.mainScreen().bounds.size.height
     }
     
-    class var screenBounds: CGRect {
+    class var mainScreenBounds: CGRect {
         return UIScreen.mainScreen().bounds
     }
     
-    class var screenScale: CGFloat {
+    class var mainScreenScale: CGFloat {
         return UIScreen.mainScreen().scale
     }
 }

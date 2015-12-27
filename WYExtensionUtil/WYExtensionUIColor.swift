@@ -57,6 +57,14 @@ extension UIColor {
         return UIColor(hexCode: hex)
     }
     
+    
+    class func fb_darkBlue() -> UIColor { return UIColor(hexCode: "#0e1f56") }
+    class func fb_blue() -> UIColor { return UIColor(hexCode: "#3b5998") }
+    class func fb_mediumBlue() -> UIColor { return UIColor(hexCode: "#6d84b4") }
+    class func fb_lightBlue() -> UIColor { return UIColor(hexCode: "#afbdd4") }
+    class func fb_white() -> UIColor { return UIColor(hexCode: "#f7f7f7") }
+    
+    
     // Get context in the rect and return a pure color of it
     func getImageByRect(rect:CGRect) -> UIImage {
         UIGraphicsBeginImageContext(rect.size)

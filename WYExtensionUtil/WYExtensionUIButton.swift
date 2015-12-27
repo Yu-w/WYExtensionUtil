@@ -27,11 +27,6 @@ extension UIButton {
         }
     }
     
-    //    var normalColor:UIColor = UIColor.whiteColor()
-    //    var highlightColor:UIColor = COLOR_F2F4F8
-    //    var normalTitleColor:UIColor = COLOR_333
-    //    var highlightTitleColor:UIColor = COLOR_333
-    
     var normalColor:UIColor {
         return UIColor.whiteColor()
     }
