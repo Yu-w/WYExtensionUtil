@@ -27,18 +27,6 @@ extension UIView {
         self.center.y = rect.origin.y
     }
     
-    var centerX: CGFloat {
-        return self.bounds.width / 2
-    }
-    
-    var centerY: CGFloat {
-        return self.bounds.height / 2
-    }
-    
-    var centerPoint: CGPoint {
-        return CGPointMake(self.centerX, self.centerY)
-    }
-    
     var endX: CGFloat {
         return self.frame.size.width + self.frame.origin.x
     }

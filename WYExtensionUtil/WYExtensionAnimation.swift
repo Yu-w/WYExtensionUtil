@@ -50,8 +50,9 @@ extension UIView {
     
     //Mark: shake animations
     func shakeAnimation() {
-        UIView.animateKeyframesWithDuration(0.1, delay: 0, options: [.Repeat,.Autoreverse,.AllowUserInteraction], animations: { () -> Void in
+        UIView.animateKeyframesWithDuration(0.08, delay: 0, options: [.Repeat,.Autoreverse,.AllowUserInteraction], animations: { () -> Void in
             self.transform = CGAffineTransformMakeRotation(0.05)
+            self.transform = CGAffineTransformMakeTranslation(3, 0)
             }, completion: { (finished) -> Void in
         })
     }

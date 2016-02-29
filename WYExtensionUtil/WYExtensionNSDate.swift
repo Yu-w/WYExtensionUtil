@@ -49,13 +49,13 @@ extension NSDate {
         return formatter.stringFromDate(date)
     }
     
-    func isToday() -> Bool {
+    func isDateToday() -> Bool {
         let format = NSDateFormatter()
         format.dateFormat = "yyyy-MM-dd"
         return format.stringFromDate(self) == format.stringFromDate(NSDate())
     }
     
-    func isYestoday() -> Bool {
+    func isDateYestoday() -> Bool {
         let format = NSDateFormatter()
         format.dateFormat = "yyyy-MM-dd"
         return format.stringFromDate(self) == format.stringFromDate(NSDate().dateByAddingTimeInterval(-24*60*60))
@@ -105,9 +105,9 @@ extension NSDate {
     
     func noticeTime() -> String{
         let format = NSDateFormatter()
-        if self.isToday() {
+        if self.isDateToday() {
             format.dateFormat = "HH:mm"
-        } else if self.isYestoday(){
+        } else if self.isDateYestoday(){
             format.dateFormat = "Yesterday HH:mm"
         } else {
             format.dateFormat = "MM-dd"
