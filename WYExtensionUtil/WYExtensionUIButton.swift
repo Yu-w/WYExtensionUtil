@@ -36,15 +36,15 @@ extension UIButton {
     }
     
     func setTapHighlight() {
-        self.addTarget(self, action: "changeColor:", forControlEvents: UIControlEvents.TouchDown)
+        self.addTarget(self, action: #selector(UIButton.changeColor(_:)), forControlEvents: UIControlEvents.TouchDown)
     }
     
     func changeColor(button:UIButton) {
         button.backgroundColor = highlightColor
         // button.setTitleColor(highlightTitleColor, forState: UIControlState.Normal)
-        button.addTarget(self, action: "reviewColor:", forControlEvents: UIControlEvents.TouchCancel)
-        button.addTarget(self, action: "reviewColor:", forControlEvents: UIControlEvents.TouchUpInside)
-        button.addTarget(self, action: "reviewColor:", forControlEvents: UIControlEvents.TouchUpOutside)
+        button.addTarget(self, action: #selector(UIButton.reviewColor(_:)), forControlEvents: UIControlEvents.TouchCancel)
+        button.addTarget(self, action: #selector(UIButton.reviewColor(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+        button.addTarget(self, action: #selector(UIButton.reviewColor(_:)), forControlEvents: UIControlEvents.TouchUpOutside)
     }
     
     func reviewColor(btn:UIButton) {
